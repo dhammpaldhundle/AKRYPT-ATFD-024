@@ -1,0 +1,58 @@
+
+.boddy{
+    display: flex;
+    justify-content: center;
+}
+.big{
+    height:490px;
+    width: 900px;
+    borde: 2px solid red;
+    background-color: black;
+}
+
+.div1{
+
+    height: 
+    width: 100%;
+    borde: 1px solid yellow;
+    margin-top:10px
+}
+
+.div11{
+
+    height: 20%;
+    width: 100%;
+    borde: 1px solid rgb(15, 3, 246);
+}
+.div22{
+
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 80%;
+    width: 100%;
+    borde: 1px solid rgb(114, 248, 19);
+}
+
+
+.pic{
+    height: 100%;
+    width: 13%;
+    borde: 1px solid rgb(9, 159, 240);
+}
+.fpic{
+    width: 100%;
+}
+.margin{
+    margin-bottom: 10px;
+}
+
+
+.text{
+    
+    color: white;
+    font-family: serif;
+    margin-left: 10px;
+    margin-top: 30px;
+}

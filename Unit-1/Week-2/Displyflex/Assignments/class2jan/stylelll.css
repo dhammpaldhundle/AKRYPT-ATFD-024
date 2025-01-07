@@ -1,0 +1,22 @@
+
+#bigdiv
+{
+display: grid;
+
+border: 2px solid blue;
+    /*grid-template-rows:200px 200px  ;*/
+    grid-template-columns: 200px 200px 200px;
+    gap: 10px;
+
+}
+
+
+.div{
+
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+}
+
+
+
