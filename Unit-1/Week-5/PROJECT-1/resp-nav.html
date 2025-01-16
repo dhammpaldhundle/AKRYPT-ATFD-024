@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>responsive NAvar</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script
+
+      src="https://kit.fontawesome.com/e175ad312a.js"
+
+      crossorigin="anonymous"
+
+    ></script>
+
+
+
+    <style>
+
+      .navbar {
+
+        height: 87px;
+
+        background-color: rgb(230, 232, 235);
+
+        border: 1px solid black;
+
+
+
+        display: flex;
+
+      }
+
+
+
+      .logo {
+
+        /* height: 87x; */
+
+        width: 30%;
+
+        /* border: 1px solid red; */
+
+        /* align-content: center; */
+
+        margin-bottom: 30px;
+
+      }
+
+
+
+      .menu {
+
+        /* height: 87px; */
+
+        width: 50%;
+
+        /* border: 1px solid green; */
+
+        text-align: center;
+
+        align-content: center;
+
+        display: flex;
+
+        justify-content: space-around;
+
+        align-items: center;
+
+      }
+
+
+
+      .ancer {
+
+        text-decoration: none;
+
+        font-family: sans-serif;
+
+        font-weight: 400;
+
+        color: black;
+
+      }
+
+
+
+      .quote {
+
+       
+
+        width: 20%;
+
+        background-color: blue;
+
+        /* border: 1px solid orangered; */
+
+      }
+
+
+
+      .image {
+
+        width: 100%;
+
+        background-color: blue;
+
+      }
+
+
+
+     
+
+      
+
+      .icon {
+
+        display: none;
+
+        /* width: 20%; */
+
+        /* display: flex; */
+
+      }
+
+
+
+      @media screen and (max-width: 768px) {
+
+        .logo{
+
+            width: 50%;
+
+        }
+
+        .menu {
+
+          display: none;
+
+        }
+
+
+
+        .quote {
+
+          display: none;
+
+        }
+
+        .icon {
+
+          display: block;
+
+          width: 100%;
+
+          border: 2px solid red;
+
+          justify-content: flex-end;
+
+          text-align: end;
+
+
+
+
+
+        }
+
+      }
+
+
+
+      /* @media screen and (max-width:480px){ */
+
+
+
+      /* .icon {
+
+        display: block;
+
+        width: 20%;
+
+      } */
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="navbar">
+
+      <div class="logo">
+
+        <img
+
+          class="image"
+
+          src="https://www.akrypttechnologies.com/_next/static/media/Akrypt%20Technologies%20Logo%20Full%20Transparent%20White.fb8c32d4.svg"
+
+          alt=""
+
+        />
+
+      </div>
+
+
+
+      <div class="menu">
+
+        <a class="ancer" href="#">Home</a>
+
+        <a class="ancer" href="#">Services</a>
+
+        <a class="ancer" href="#">Course</a>
+
+        <a class="ancer" href="#">Blog</a>
+
+        <a class="ancer" href="#">About</a>
+
+        <a class="ancer" href="#">Contact</a>
+
+        <a class="ancer" href="#">Carrer</a>
+
+      </div>
+
+
+
+      <div class="quote">
+
+        <a class="quotetext" href="#">Get A Quote</a> <br />
+
+      </div>
+
+
+
+      <div class="icon">
+
+        <I class="fa-solid fa-bars"></I>
+
+      </div>
+
+    </div>
+
+  </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+

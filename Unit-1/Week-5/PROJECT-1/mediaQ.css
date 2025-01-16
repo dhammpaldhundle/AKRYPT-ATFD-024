@@ -1,0 +1,71 @@
+@media screen and (max-width:991px){
+    html,
+    body{
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        padding: 0;
+    }
+
+  .nav-toggel{
+        display: block;
+        /* margin-right:10%; */
+        /* padding-top: 2em; */
+        font-size: 25px;
+        color: white;
+        /* margin-left: 2%; */
+        transition: 0.5s;
+        /* padding-left: 2%; */
+
+    }
+    .empty{
+        display: none;
+    }
+
+
+    .logo{
+        
+        margin-left: 10%;
+        font-size: 1em;
+    
+    }
+
+    .menuoption{
+        display: none;
+    }
+
+    .getQuote{
+        margin-left: 30%;
+        margin-top: 18px;
+        
+
+    }
+
+    .empty2{
+        display: none;
+    }
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+    html,
+    body{
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        padding: 0;
+    }
+
+}
+
+
+
+
+

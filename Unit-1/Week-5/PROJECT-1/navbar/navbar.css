@@ -1,0 +1,127 @@
+.navbar {
+    /* height: 76px; */
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    background-color: #0E1D34E6;
+    /* opacity: 0.7; */
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.empty {
+    /* height: 76px; */
+    width: 7%;
+    border:1px solid blueviolet;
+}
+
+.logo {
+    /* height: 76px; */
+    width: 30%;
+    border:1px solid blueviolet;
+    text-align: start;
+}
+
+.logoh1 {
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-stretch: narrower;
+    /* font-weight:; */
+}
+
+.menuoption {
+    width: 46%;
+    border: 1px solid purple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* justify-content:space-between; */
+
+}
+
+.menutag {
+    text-decoration: none;
+    /* color: aliceblue; */
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+.menutag:hover {
+    color: aliceblue;
+    transition: 0.3s;
+
+
+}
+
+.dropbtn {
+    color: #04AA6D;
+    background: none;
+    border: none;
+    font-size: 17px;
+}
+
+.droptext {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.dropdown:hover {
+    color: aliceblue;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.getQuote {
+    width:10%;
+    border: 1px solid purple;
+    padding-top: 25px;
+    background-color: blue;
+    border-radius: 5px;
+    text-align: center;
+    padding-left: 100px;
+}
+.getQuote:hover{
+    background-color:#486fff;
+    transition: 1s;
+}
+
+.quotetext {
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.empty2 {
+    width: 7%;
+    border: 1PX solid red;
+}
+.menu-icon{
+    color: aliceblue;
+    font-size: 30px;
+    padding-top: 25px;
+    padding-left: 150px;
+    display: none;
+
+}
+
+.menu-icon-box{
+    width: 25%;
+    border: 2px solid rgb(229, 26, 15);
+    display: none;
+    float: right;
+}
+
+
+@media screen and (max-width:1196px){
+    
+}
+
+    

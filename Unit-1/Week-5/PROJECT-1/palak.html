@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fontawesome.com/5a8d50f3-cdd0-497d-a44f-8c4eccd4e4f9">
+    <!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
+    <script src="https://kit.fontawesome.com/76e4932f20.js" crossorigin="anonymous"></script>
+    <style>
+        .head {
+            text-align: center;
+            font-size: large;
+        }
+
+        .hf {
+            color: blue;
+            text-shadow: 0px -16px rgb(230, 230, 236);
+        }
+
+        #maindiv {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10%;
+            text-align: center;
+            /* width: 3000px; */
+        }
+
+        .d1 {
+            border: 2px solid black;
+
+        }
+
+        .d2 {
+            border: 2px solid black;
+        }
+
+        .d3 {
+            border: 2px solid black;
+        }
+
+        .btnd1 {
+            border-radius: 20px;
+            color: blue;
+            border: none;
+            font-size: larger;
+        }
+
+        .btnd1:hover {
+            background-color: blue;
+            color: white;
+        }
+
+        .mon {
+            color: blue;
+        }
+
+        .text {
+            color: navy;
+            font-size: larger;
+        }
+
+        #enterpreneur {
+            text-align: center;
+            height: 550px;
+            font-size: larger;
+            margin-top: 50px;
+            color: rgb(245, 248, 246);
+            background-size: 100% 100%;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScO7ei4EDh21Y0vSToBqFnbLQZVomsOJdyEQ&s);
+        }
+
+        .image1 {
+            border-radius: 200px;
+            width: 120px;
+            margin-top: 79px;
+        }
+
+        .ques {
+            text-align: center;
+        }
+
+        .fq {
+            color: navy;
+            font-size: x-large;
+        }
+
+        #ques2 {
+            gap: 50px;
+            /* border: 2px solid white; */
+            text-align: center;
+            /* background-color: rgb(234, 222, 234); */
+        }
+
+        .ASKED {
+            display: flex;
+            margin-left: 100px;
+            margin-right: 160px;
+            gap: 15px;
+            color: rgb(2, 2, 52);
+            background-color: rgb(206, 200, 200);
+            border: 8px solid white;
+            height: 65px;
+        }
+
+        .icon2 {
+            font-size: 24px;
+            border: 1px solid black;
+            width: 35px;
+            border-radius: 5000%;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+
+        .lastpart {
+            color: rgb(163, 174, 183);
+            display: flex;
+            gap: 30%;
+            margin-left: 20%;
+            /* ?-image: url(https://t4.ftcdn.net/jpg/02/44/87/35/360_F_244873590_a69hjCnsOjGfNRgzuol3N8C0cLDd4gZV.jpg); */
+        }
+
+        .lastpart1 {
+            background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgICAgHCAgHBwcHBwoHBwcHBw8ICQcKFREWIiARExMYHSggGCYlGx8fITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDg0NDisZHxkrKysrLSsrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAL4BCQMBIgACEQEDEQH/xAAWAAEBAQAAAAAAAAAAAAAAAAAAAQf/xAAVEAEBAAAAAAAAAAAAAAAAAAAAEf/EABcBAQEBAQAAAAAAAAAAAAAAAAABBQT/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDHgGk5QAAAAAAAAAAAAAAAAAAAEABQAAAAAEUBAAUAAAAAAAAAAAAAAAAAAAAAEABQAAAAAAAAAAAAAAAAAAAAAAAAAAUEAAABFAAAAAAAAAAAAAAAAFBBQEFAQUBBUAAAAAAAAAAAAAAAAAAAABUUAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAABQAAAAAEABQEVABQEAAFAQAAAAFBFQAAAAAAAABRFAAAAAAAEAUQAAAAAVAFEAUAAQBUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQBRAAAAAARQFQBUAAEBQAAAAAAKAFAAAAAAAAAAQFEAUQBRAARRQAAAQAAAAVAAABUUAQAAAAAAAAAAAAAEBVQAAAFQBRAFQAURQAAABAAUEAUQBRAFEAUQBRAAAAAAEBRFAAAAAAAAAAAEUAAAAAAAAAAAAAAAAAEBUBFf/9k=);
+            width: 100%;
+            background-size: 100% 100%;
+            height: 590px;
+            /* background-image: ; */
+
+        }
+
+        .lp2 {
+            color: rgb(249, 244, 238);
+        }
+
+        .lp2:hover {
+            color: white;
+        }
+
+        .lastpart1:hover {
+            background-color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="head">
+        <h1 class="hf"> PRICING</h1>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit </p>
+    </div>
+    <div id="maindiv">
+        <div class="d1">
+            <h3 class="text">Free Plan</h3>
+            <h3 class="mon">$0/ month</h3>
+            <i class="fa-solid fa-check"></i>
+            <p> Quam adipiscing vitae proin</p>
+            <i class="fa-solid fa-check"></i>
+            <p> Nec feugiat nisl pretium</p>
+            <i class="fa-solid fa-check"></i>
+            <p> Nulla at volutpat diam uteera</p>
+            <i class="fa-solid fa-xmark"></i>
+            <p style="text-decoration: line-through;">Pharetra massa massa ultricies</p>
+            <i class="fa-solid fa-xmark"></i>
+            <p style="text-decoration: line-through;">Massa ultricies mi quis hendrerit</p>
+            <button class="btnd1" style="border: 1px solid blue;">Buy Now</button">
+        </div>
+        <div class="d2">
+            <h3 class="text">Business Plan</h3>
+            <h3 class="mon">$29/ month</h3>
+            <i class="fa-solid fa-check"></i>
+            <p> Quam adipiscing vitae proin</p>
+            <i class="fa-solid fa-check"></i>
+            <p> Nec feugiat nisl pretium</p>
+            <i class="fa-solid fa-check"></i>
+            <p> Nulla at volutpat diam uteera</p>
+            <i class="fa-solid fa-check"></i>
+            <p>Pharetra massa massa ultricies</p>
+            <i class="fa-solid fa-check"></i>
+            <p>Massa ultricies mi quis hendrerit</p>
+            <button class="btnd1" style="border: 1px solid blue;">Buy Now</button>
+        </div>
+        <div class="d3">
+            <h3 class="text">Developer Plan</h3>
+            <h3 class="mon">$49/ month</h3>
+            <i class="fa-solid fa-check"></i>
+            <p> Quam adipiscing vitae proin</p>
+            <i class="fa-solid fa-check"></i>
+            <p> Nec feugiat nisl pretium</p>
+            <i class="fa-solid fa-check"></i>
+            <p> Nulla at volutpat diam uteera</p>
+            <i class="fa-solid fa-check"></i>
+            <p>Pharetra massa massa ultricies</p>
+            <i class="fa-solid fa-check"></i>
+            <p>Massa ultricies mi quis hendrerit</p>
+            <button class="btnd1" style="border: 1px solid blue;">Buy Now</button>
+        </div>
+    </div>
+    <div id="enterpreneur">
+        <div>
+            <img class="image1" src="https://themewagon.github.io/logis-new/assets/img/testimonials/testimonials-5.jpg"
+                alt="">
+            <h2> john larson</h2>
+            <h4>enterpreneur</h4>
+            <i class="fa-solid fa-star" style="color: yellow;"></i>
+            <i class="fa-solid fa-star" style="color: yellow;"></i>
+            <i class="fa-solid fa-star" style="color: yellow;"></i>
+            <i class="fa-solid fa-star" style="color: yellow;"></i>
+            <i class="fa-solid fa-star" style="color: yellow;"></i>
+            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis in ipsam culpa! Voluptatibus assumenda,
+                rerum labore maxime tempore recusandae porro praesentium unde quo saepe cum deserunt quibusdam quam
+                veritatis reprehenderit."</p>
+        </div>
+    </div>
+    <div class="ques">
+        <h2 class="fq">FREQUENTLY ASKED QUESTION</h2>
+        <h4>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</h4>
+    </div>
+    <div id="ques2">
+        <div class="ASKED">
+            <i class="far fa-question-circle" style="margin-top: 22px; color: rgb(81, 43, 129);"></i>
+            <h3>Non consectetur a erat nam at lectus urna duis?</h3>
+        </div>
+        <div class="ASKED">
+            <i class='far fa-question-circle' style="margin-top: 22px;color: rgb(81, 43, 129); "></i>
+            <h3>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</h3>
+        </div>
+        <div class="ASKED">
+            <i class="far fa-question-circle" style="margin-top: 22px;color: rgb(81, 43, 129); "></i>
+            <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
+        </div>
+        <div class="ASKED">
+            <i class="far fa-question-circle" style="margin-top: 22px;color: rgb(81, 43, 129); "></i>
+            <h3>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h3>
+        </div>
+        <div class="ASKED">
+            <i class="far fa-question-circle" style="margin-top: 22px;color: rgb(81, 43, 129); "></i>
+            <h3>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</h3>
+        </div>
+        <div class="lastpart1">
+            <div class="lp2">
+                <h1>Logis</h1>
+                <h3>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies
+                    darta donna mare fermentum iaculis eu non diam phasellus.</h3>
+            </div>
+
+            <div class="icon2">
+                <div class="icon2">
+                    <a href=""><i class="fa-brands fa-x-twitter"
+                            style='font-size:20px; margin-left: 7px; color: rgb(218, 211, 211); '></i></a>
+                </div>
+                <div class="icon2">
+                    <a href=""> <i class="fa-brands fa-facebook"
+                            style='font-size:20px; margin-left: 7px; color: rgb(187, 173, 173);'></i></a>
+                </div>
+                <div class="icon2">
+                    <a href=""> <i class='fab fa-instagram'
+                            style='font-size:20px;  margin-left: 8px; color: rgb(226, 214, 214);'></i> </a>
+                </div>
+                <div class="icon2">
+                    <a href=""> <i class='fab fa-linkedin'
+                            style='font-size:20px;  margin-left:8px; color: rgb(223, 217, 217);'></i> </a>
+                    <!-- <button style='font-size:24px'> <i class='fab fa-linkedin'></i></button> -->
+                </div>
+            </div>
+            <div class="lastpart">
+                <div>
+                    <h2>Useful Links</h2>
+                    <h4>Home</h4>
+                    <h4> About us</h4>
+                    <h4>Services</h4>
+                    <h4> TERMS of service</h4>
+                    <h4> Privacy policy</h4>
+                </div>
+                <div>
+                    <h2>Our Services</h2>
+                    <h4> Web Design</h4>
+                    <h4>Web Developement</h4>
+                    <h4>Product Mangement</h4>
+                    <h4>Marketing</h4>
+                    <h4>graphics Design</h4>
+                </div>
+                <div>
+                    <h2>Contactus</h2>
+                    <p> A108 Adam Street </p>
+                    <p> New York,NY535022 </p>
+                    <p> United States </p>
+
+                    <h4>PHONE:+155895548855</h4>
+                    <h4>Email:info@example.com</h4>
+                </div>
+            </div>
+            <div>
+                <h3 style="color:rgb(108, 98, 98);"> ___________________</h3>
+            </div>
+            <div>
+                <h3 style="color: aliceblue;">© Copyright Logis All Rights Rese Designed by BootstrapMade Distributed by
+                    ThemeWagon</h3>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

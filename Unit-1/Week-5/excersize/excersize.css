@@ -1,0 +1,11 @@
+.examplebox{
+    height: 300px;
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+}
+.examplebox1{
+    height: 300px;
+    width: 33.33%;
+    border: 2px solid red;
+}
