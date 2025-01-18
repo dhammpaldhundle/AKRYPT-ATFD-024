@@ -1,0 +1,155 @@
+.navbar{
+    height: 73px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.logo a{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 17px;
+}
+
+.menu-tags{
+    display: flex;
+   
+}
+
+.menu-tags a{
+ color: black;
+ padding: 20px;
+ text-decoration: none;
+ font-size: 17px;
+}
+
+i{
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+
+.hero-section{
+    height: 700px;
+    width: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/29/09/24/swan-1868697_960_720.jpg);
+    background-size: cover;
+}
+
+.text-div{
+    height: 200px;
+    width: 60%;
+    /* border: 2px solid red; */
+    padding-top: 200px;
+    font-weight: 100;
+}
+    
+.text-div h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    margin-left: 26px;
+    font-weight: 400;
+}
+
+.para2{
+    color: white;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 26px;
+}
+
+
+.text-p{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    margin-left: 26px;
+    /* border: 1px solid red; */
+}
+
+.text-p a{
+    text-decoration: none;
+    padding: 20px;
+    
+}
+
+
+
+.hero-icon i{
+    color: white;
+    margin-left: 20px;
+    font-size: 30px;
+    margin-top: 200px;
+}
+
+.about-text{
+    height: 200px;
+    /* border: 1px solid green; */
+    width: 50%;
+   margin-left: 400px;
+}
+
+.about-text h3{
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 100;
+
+}
+.about-text p{
+    color:black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+
+
+}
+
+
+.about-icon{
+
+    height: 330px;
+    
+    /* border: 2px solid rgb(139, 238, 18); */
+    
+
+display: grid;
+grid-template-columns: 22% 22% 22% 22% ;
+gap: 40px;
+padding-left: 150px;
+
+    
+}
+
+.aicon1{
+    /* border: 1px solid red; */
+    text-align: center;
+    padding-top: 40px;
+    
+}
+
+.aicon1 i{
+    font-size: 90px;
+    /* font-family:serif; */
+    
+}
+
+.aicon1 h5{
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.aicon1 p{
+    font-family:sans-serif;
+}
